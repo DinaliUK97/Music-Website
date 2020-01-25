@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+<link href="css/style.css"rel="stylesheet">
+<title> Music quiz </title>
+</head>
+
+<body>
+<nav>
+    <ul class="leftalign">
+        <li class="leftalign" id="logoitem"><a href="#"><img src="SVG/logo.svg" alt="logo" class="logo"></a></li>
+    </ul>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="store.html">Store</a></li>
+        <li><a href="about%20us%20page.html">About us</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+        <li class="parent"><a href="#">Articles</a>
+            <ul class="child">
+                <li><a href="dilshan/article.html">80's Greatest Albums</a></li>
+                <li><a href="jazz.html">90's Jazz</a></li>
+                <li><a href="dinali/DinaliArticle.html">Micheal Jackson</a></li>
+                <li><a href="sewmini/charlie%20puth.html">Charlie Puth</a></li>
+            </ul>
+        </li>
+
+    </ul>
+</nav>
+
+<h1><center> Music Quiz</h1></center>
+
+<script lanuage="text/javascript">
+  
+var score = 0;
+
+var value = prompt("1/ Michael Jackson's album got to be there was made on a)1971 b)1973 c)1972 d)1975 ", "");
+
+    if (value == "c"){
+
+        alert("Yes correct!");
+
+    score += 1; 
+
+    
+
+}else{
+
+        alert("Sorry the answer is incorrect, the answer is 1972");
+
+    }
+
+
+var value = prompt("2/ What is the song that launched Justin Bieber to superstardom? a)one time b)one less lonely girl c)baby d)heartbreaker", "");
+
+    if (value == "c"){
+
+        alert("Yes correct!");
+
+    score += 1;
+
+ }else {
+
+        alert("Sorry the answer is incorrect, the answer is Baby");
+    }
+
+ 
+
+var value = prompt("3/ what is angel band's first album? a)night attack b)live line c)face to face d)angels", "");
+ 
+
+    if (value == "d")
+    {
+        alert("Yes correct!");
+
+    score += 1;
+
+
+    }else{
+
+        alert("Sorry the answer is incorrect, the answer is Angels");
+
+    }
+
+
+    var value = prompt("4/ who sang 1980's song 'call me'? a)nena b)brenda lee c)blondie d)Kate Bush ", "");
+ 
+
+    if (value == "c")
+    {
+        alert("Yes correct!");
+
+    score += 1;
+
+
+    }else{
+
+        alert("Sorry the answer is incorrect, the answer is Blondie");
+
+    }
+
+    var value = prompt("5/ In which year Cyndi Lauper have a hit with 'Girls Just Wanna Have Fun'?a) 1983 b) 1985  c) 1987 d)1984", "");
+ 
+
+    if (value == "a")
+    {
+        alert("Yes correct!");
+
+    score += 1;
+
+
+    }else{
+
+        alert("Sorry the answer is incorrect, the answer is 1983");
+    } 
+
+    var value = prompt("6/ which one below is a song sung by Charlie Puth? a)If I can Dream b)Attention c)I've been everywhere d)Here with me" , "");
+ 
+
+    if (value == "b")
+    {
+        alert("Yes correct!");
+
+    score += 1;
+
+
+    }else{
+
+        alert("Sorry the answer is incorrect, the answer is Attention");
+    }
+
+var value = prompt("7/ Who sang the title track of the late 80s James Bond film Licence to Kill?? a)Tina Turner b) Patti LaBelle c)Gladys Knight d)Shirley Bassey" , "");
+ 
+
+    if (value == "c")
+    {
+        alert("Yes correct!");
+
+    score += 1;
+
+
+    }else{
+
+        alert("Sorry the answer is incorrect, the answer is Gladys Knight");
+    }
+
+var value = prompt("8/ Which Frankie Goes to Hollywood song was banned on UK radio play in 1984, because of its lyrics? a)Two Tribes b)Relax c)Welcome to the Pleasuredome d) Rage Hard" , "");
+ 
+
+    if (value == "b")
+    {
+        alert("Yes correct!");
+
+    score += 1;
+
+
+    }else{
+
+        alert("Sorry the answer is incorrect, the answer is Relax");
+    }
+
+var value = prompt(" 9/ Clash song, when re-released in 1991, went straight to number one in the UK? a)London Calling b) Straight to Hello c) Rock the Casbah d) Should I Stay or Should I Go? " , "");
+ 
+
+    if (value == "d")
+    {
+        alert("Yes correct!");
+
+    score += 1;
+
+
+    }else{
+
+        alert("Sorry the answer is incorrect, the answer is Should I Stay or Should I Go? ");
+    }
+
+var value = prompt(" 10/ Which Peter Gabriel song was not a gigantic hit in the 80s?a) Red Rain b) Games Without Frontier c) Don’t Give Up d)Sledgehammer " , "");
+ 
+
+    if (value == "a")
+    {
+        alert("Yes correct!");
+
+    score += 1;
+
+
+    }else{
+
+        alert("Sorry the answer is incorrect, the answer is Red Rain ");
+    }
+
+document.write("<center>You got "  +score+   " out of 10 correct</center>");
+
+if(value==value){
+    document.write("<br><center>You got "     + score*2+   "marks</center>" );
+}
+
+if (score*2>10){
+    document.body.style.backgroundColor="lightgreen"
+    document.write("<br><center >you got marks above 10</center>");
+	
+}else{
+    document.body.style.backgroundColor="red"
+    document.write("<br><center>you got marks below 10</center>");
+}
+
+
+ 
+
+</script>
+
+ 
+
+</body>
+
+</html>

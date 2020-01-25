@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Vinyl Store</title>
+    <link rel="stylesheet" href="css/style.css">
+	 <link href="css/fontSize.css" rel="stylesheet" > 
+	  <script type="text/javascript" src="js/fontSize.js"></script>
+</head>
+<body>
+<div class="header">
+<nav>
+    <ul class="leftalign">
+        <li class="leftalign" id="logoitem"><a href="#"><img src="SVG/logo.svg" alt="site-logo" class="logo"></a></li>
+    </ul>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>      <!-- Navigation bar -->
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="store.html">Store</a></li>
+        <li><a href="about%20us%20page.html">About us</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+        <li class="parent"><a href="#">Articles</a>         <!-- Dropdown list in the navigation bar -->
+            <ul class="child">
+                <li><a href="dilshan/article.html">80's Greatest Albums</a></li>
+                <li><a href="jazz.html">90's Jazz</a></li>
+                <li><a href="dinali/DinaliArticle.html">Micheal Jackson</a></li>
+                <li><a href="sewmini/charlie%20puth.html">Charlie Puth</a></li>
+            </ul>
+        </li>
+
+    </ul>
+</nav>
+</div>
+<div class="img1">          <!-- First parallax image -->
+    <div class="text">
+               <h1> <span class="border">
+                   <!-- Name of the website is included as content -->
+                   THE VINYL STORE
+                </span></h1>
+    </div>
+</div>
+
+<div class="img2">          <!-- Second parallax image -->
+    <div class="text">
+                <span style="color: red">
+                    <strong><p>"As long as there are musicians who have a passion for spontaneity, for creating something that's never been before, the art form of jazz will flourish."<br> -Charlie Haden</p></strong>
+
+                </span>
+    </div>
+</div>
+
+<div class="img3">          <!-- Third parallax image -->
+    <div class="text">
+                <span style="color: red">
+                    <strong><p>“Rock is not dead, but it is The Walking Dead, with a few groups still trying to survive in a zombie apocalypse of musicians or fringe and splintered groups.”<br> -Michael P. Naughton</p></strong>
+
+                </span>
+    </div>
+</div>
+<div class="img4">          <!-- Fourth parallax image -->
+    <div class="text">
+                <span style="color:red">
+                    <strong><p>"Hip-hop is the streets. Hip-hop is a couple of elements that it comes from back in the days... that feel of music with urgency that speaks to you. It speaks to your livelihood and it's not compromised. It's blunt. It's raw, straight off the street - from the beat to the voice to the words."<br> -Nas</p></strong>
+                </span>
+    </div>
+</div>
+<footer>                                        <!-- Footer containing feedback form -->
+    <div class="wrapper">
+        <h2>How did we do?</h2>
+        <div id="error_message"></div>
+        <form id="myform" onsubmit="return validate();">
+            <div class="input_field">
+                <label for="name">Your Name</label>
+                <input type="text" placeholder="Name" id="name">
+            </div>
+            <div class="input_field">
+                <label for="subject">Subject</label>
+                <input type="text" placeholder="Subject" id="subject">
+            </div>
+            <div class="input_field">
+                <label for="phone">Phone</label>
+                <input type="text" placeholder="Phone" id="phone">
+            </div>
+            <div class="input_field">
+                <label for="email">Email</label>
+                <input type="text" placeholder="Email" id="email">
+            </div>
+            <div class="input_field">
+                <label for="message">Message</label>
+                <textarea placeholder="Message" id="message"></textarea>
+            </div>
+            <fieldset>
+            <legend>
+            <div class="wrapper" id="wrapper">
+                <span class="rating">
+
+
+                        <input id="rating5" type="radio" name="rating" value="5">
+                        <label for="rating5">5</label>
+                        <input id="rating4" type="radio" name="rating" value="4">
+                        <label for="rating4">4</label>
+                        <input id="rating3" type="radio" name="rating" value="3">
+                        <label for="rating3">3</label>
+                        <input id="rating2" type="radio" name="rating" value="2">
+                        <label for="rating2">2</label>
+                        <input id="rating1" type="radio" name="rating" value="1" checked>
+                        <label for="rating1">1</label>
+
+
+                    </span>
+            </div>
+            </legend>
+            </fieldset>
+            <div class="btn">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+	<div><button class="buttonFont" onclick="upFont()"> Font Increase</button>          <!-- Font increase -->
+      <button class="buttonFont" onclick="dFont()"> Font Decrease</button></div>        <!-- Font decrease -->
+    <div class="footer-bottom">
+        &copy;thevinylstore.com | Designed by Vinula Kasthuriarachchi
+    </div>
+</footer>
+<script src="js/feedback.js"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE Html>
+<html lang='en'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <link href="css/style.css" rel="stylesheet">
+    <title>Gallery </title>
+    <link rel='stylesheet' href="css/dropdown.css">
+    <link rel="stylesheet" href='css/gallery.css'>
+
+</head>
+
+<body>
+<nav>
+    <ul class="leftalign">
+        <li class="leftalign" id="logoitem"><a href="#"><img src="SVG/logo.svg" alt="site-logo" class="logo"></a></li>
+    </ul>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="store.html">Store</a></li>
+        <li><a href="about%20us%20page.html">About us</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+        <li class="parent"><a href="#">Articles</a>
+            <ul class="child">
+                <li><a href="dilshan/article.html">80's Greatest Albums</a></li>
+                <li><a href="jazz.html">90's Jazz</a></li>
+                <li><a href="dinali/DinaliArticle.html">Micheal Jackson</a></li>
+                <li><a href="sewmini/charlie%20puth.html">Charlie Puth</a></li>
+            </ul>
+        </li>
+
+    </ul>
+</nav>
+    <center>
+        <h1>Gallery</h1>
+        <script src="js/gallery.js"></script>
+        <script src="js/dropdown.js"></script>
+
+    </center>
+    <menu>
+        <ul id="font">
+
+            <li class="selector">F
+                <ul class="colours">
+                    <a href=# class='black' onclick="FChangeColor(this)">
+                        <li class='black'>Black</li>
+                    </a>
+                    <a href=# class='grey' onclick="FChangeColor(this)">
+                        <li class="grey">Grey</li>
+                    </a>
+                    <a href=# class='white' onclick="FChangeColor(this)">
+                        <li class="white">White</li>
+                    </a>
+                    <a href=# class='orange' onclick="FChangeColor(this)">
+                        <li class="orange">Orange</li>
+                    </a>
+                    <a href=# class='deepskyblue' onclick="FChangeColor(this)">
+                        <li class="deepskyblue">Blue </li>
+                    </a>
+                    <a href=# class='red' onclick="FChangeColor(this)">
+                        <li class="red">Red</li>
+                    </a>
+                    <a href=# class='greenyellow' onclick="FChangeColor(this)">
+                        <li class="greenyellow">Green</li>
+                    </a>
+
+                </ul>
+            </li>
+        </ul>
+        <ul id="background">
+
+            <li class="selector">B
+                <ul class="colours">
+                    <a href=# class='black' onclick="BgChangeColor(this)">
+                        <li class='black'>Black</li>
+                    </a>
+                    <a href=# class='grey' onclick="BgChangeColor(this)">
+                        <li class="grey">Grey</li>
+                    </a>
+                    <a href=# class='white' onclick="BgChangeColor(this)">
+                        <li class="white">White</li>
+                    </a>
+                    <a href=# class='orange' onclick="BgChangeColor(this)">
+                        <li class="orange">Orange</li>
+                    </a>
+                    <a href=# class='deepskyblue' onclick="BgChangeColor(this)">
+                        <li class="deepskyblue">Blue </li>
+                    </a>
+                    <a href=# class='red' onclick="BgChangeColor(this)">
+                        <li class="red">Red</li>
+                    </a>
+                    <a href=# class='greenyellow' onclick="BgChangeColor(this)">
+                        <li class="greenyellow">Green</li>
+                    </a>
+
+                </ul>
+            </li>
+        </ul>
+    </menu>
+    <div class='row'>
+        <div class="column">
+            <a href="#" onMouseOver="myFunction(pic1)" ; onMouseOut="normalFunction(pic1)" ; onFocus="myFunction(pic1)" ;>
+                <img src="img/Bruce-Springsteen.jpg" alt="Bruce Springsteen" id="pic1" class="thumbnail">
+            </a>
+        </div>
+
+        <div class="column">
+            <a href=# onMouseOver="myFunction(pic2)" ; onMouseOut="normalFunction(pic2)" ; onFocus="myFunction(pic2)" ;>
+                <img src="img/Johnny-Cash.jpg" id="pic2" alt="Johnny Cash" class="thumbnail">
+            </a>
+        </div>
+        <div class="column">
+            <a href="#" onMouseOver="myFunction(pic3)" ; onMouseOut="normalFunction(pic3)" ; onFocus="myFunction(pic3)" ;>
+                <img src="img/Fleetwood-Mac.jpg" id="pic3" alt="FleetWood Mac" class="thumbnail">
+            </a>
+        </div>
+        <div class="column">
+            <a href="#" onMouseOver="myFunction(pic4)" ; onMouseOut="normalFunction(pic4)" ; onFocus="myFunction(pic4)" ;>
+                <img src="img/Pink-Floyd.jpg" alt="Pink Floyd" class="thumbnail" id="pic4">
+            </a>
+        </div>
+        <div class="column">
+            <a href="#" onMouseOver="myFunction(pic5)" ; onMouseOut="normalFunction(pic5)" ; onFocus="myFunction(pic5)" ;>
+                <img src="img/The-Beatles.jpg" alt="The Beatles" class="thumbnail" id="pic5">
+            </a>
+        </div>
+    </div>
+    <div id="description">
+        <div id="Johnny Cash">
+            <p class="Album title">American IV: The Man Comes Around.</p>
+            <p class="release">Release date: November 5, 2002</p>
+        </div>
+        <div id="Bruce Springsteen">
+            <p class="Album title">Born in the U.S.A.</p>
+            <p class="release">Release date: June 4, 1984</p>
+        </div>
+        <div id="FleetWood Mac">
+            <p class="Atitle">Rumours</p>
+            <p class="release">Release date: February 4, 1977</p>
+        </div>
+        <div id="Pink Floyd">
+            <p class="Atitle">The Dark Side of the Moon</p>
+            <p class="release">Release date: March 1, 1973</p>
+        </div>
+        <div id="The Beatles">
+            <p class="Atitle">Abbey Road</p>
+            <p class="release">Release date: September 26, 1969</p>
+        </div>
+
+    </div>
+
+    <form class="container">
+        <img id="expandedImg" alt="expand">
+        <div id="imgtext"></div>
+        <div id="descriptiontext">
+
+        </div>
+    </form>
+    <footer>
+        <p id="editor"><a href="dilshan/dilshan.html">Dilshan Manathunge</a></p>
+    </footer>
+
+
+
+</body></html>

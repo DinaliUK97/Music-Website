@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<title>Store</title>
+<!--===============================================================================================-->
+ <link href="css/slides.css" rel="stylesheet">
+  <!--Navigation Bar-->
+  <link href="css/style.css"rel="stylesheet">
+  <script type="text/javascript" src="js/fontSize.js"></script>
+ <script type="text/javascript" src="js/Store.js"></script>
+  <link href="css/fontSize.css" rel="stylesheet" >  
+    <link href="css/styleSheet.css" rel="stylesheet" >
+</head>
+<body>
+<div id="navigationbar">
+    <nav>
+        <ul class="leftalign">
+            <li class="leftalign" id="logoitem"><a href="#"><img src="SVG/logo.svg" alt="logo" class="logo"></a></li>
+        </ul>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="about%20us%20page.html">About us</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+            <li class="parent"><a href="#">Articles</a>
+                <ul class="child">
+                    <li><a href="dilshan/article.html">80's Greatest Albums</a></li>
+                    <li><a href="jazz.html">90's Jazz</a></li>
+                    <li><a href="dinali/DinaliArticle.html">Micheal Jackson</a></li>
+                    <li><a href="sewmini/charlie%20puth.html">Charlie Puth</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+</div>
+<div id="slides">
+  <figure>
+    <img alt="slide1"a src="img/slide1.jpg" >
+    <img alt="slide2"a src="img/slide2.jpg" >
+    <img alt="slide3" a src="img/slide3.jpg" >
+    <img alt="slide4"a src="img/slide4.jpg" >
+	<img alt="slide5"a src="img/slide5.jpg" >
+  </figure>
+</div>
+<h1>Our New Arrivals Are Here</h1>
+<!--=================================container that have page layout==============-->
+<div class="column">
+  <div class="leftcolumn">
+    <div class="card">
+      <div class="content" >
+          <div class="container">
+
+	                  <div class="shpItem">
+                      <div>
+                          <p style="font-size:30px;margin-left: 8px;display: inline">Camila</p>
+                          <div style="display: inline-block "><p style="font-size: 20px;margin-left: 75px">Rs.3700</p></div>
+                      </div>
+                      <hr>
+                      <div class="shpItemPic" id="Picture1"> <div class="shopItemA"><p>Artist: Camila Cabello<br>Featured artist: Young Thug<br>Album: Camila<br>Released: 2018<br>Genres: Latin pop, Pop</p></div></div>
+					 
+                      <div class="shopItemQ">
+                          <label for="p1"><p style="display: inline; margin-right:10px">Quantity:</p></label><form> <input id="p1" class="txtQuant" type="text" value="1"></form>
+					  
+					  <div class="odrBtn" onclick="addItem(1)"><p>ADD</p></div>
+                    </div>
+                  </div>
+
+	
+                  <div class="shpItem">
+                      <div>
+                          <p style="font-size:30px;margin-left: 8px;display: inline"> Swan Song </p>
+                          <div style="display: inline-block "><p style="font-size: 20px;margin-left: 75px">Rs.800</p></div>
+                      </div>
+                      <hr>
+                      <div class="shpItemPic" id="Picture2"><div class="shopItemA"><p>Artist: Dua Lipa<br>Album:Alita<br>Released: 2019<br>Genres: Electropop</p></div></div>
+                      <div class="shopItemQ">
+                         <label for="p2"> <p style="display: inline; margin-right:10px">Quantity:</p></label><form><input id="p2" class="txtQuant" type="text" value="1"></form>
+					  
+					  <div class="odrBtn" onclick="addItem(2)"><p>ADD</p></div>
+                  </div>
+				  </div>
+
+                  <div class="shpItem">
+                      <div>
+                          <p style="font-size:30px;margin-left: 10px;display: inline">Free SpiritStudio</p>
+                          <div style="display: inline-block "><p style="font-size: 20px;margin-left: 75px">Rs.550</p></div>
+                      </div>
+                      <hr>
+                      <div class="shpItemPic" id="Picture3"><div class="shopItemA"><p>Artist: Khalid<br>Album: Free spirit<br>Released: 2019<br>Genre: R&B/Soul</p></div></div>
+                      <div class="shopItemQ">
+                        <label for="p3">  <p style="display: inline; margin-right:10px">Quantity:</p></label><form><input id="p3" class="txtQuant" type="text" value="1"></form>
+					  
+					  <div class="odrBtn" onclick="addItem(3)"><p>ADD</p></div>
+						</div>
+                  </div>
+                  <div class="shpItem">
+                      <div>
+                          <p style="font-size:30px;margin-left: 10px;display: inline">Sweetener </p>
+                          <div style="display: inline-block "><p style="font-size: 20px;margin-left: 75px">Rs.1850</p></div>
+                      </div>
+                      <hr>
+                      <div class="shpItemPic" id="Picture4"><div class="shopItemA"><p>Artist: Ariana Grande<br>Release date: August 17, 2018<br>Genre:Pop</p></div></div>
+                      <div class="shopItemQ">
+                         <label for="p4"> <p style="display: inline; margin-right:10px">Quantity:</p></label><form><input id="p4" class="txtQuant" type="text" value="1"></form>
+
+					  <div class="odrBtn" onclick="addItem(4)"><p>ADD</p></div>
+					</div>
+				  </div>
+
+                  <div class="shpItem">
+                      <div>
+                          <p style="font-size:30px;margin-left: 10px;display: inline">Shawn Mendes  </p>
+						  
+                          <div style="display: inline-block "><p style="font-size: 20px;margin-left: 75px">Rs.2550</p></div>
+                      </div>
+					  <hr>
+					<div class="shpItemPic" id="Picture5"><div class="shopItemA"><p>Artist: Shawn Mendes<br>Album: Shawn Mendes<br>Released: 2018<br>Genres:Pop</p></div></div>
+                      <div class="shopItemQ">
+                        <label for="p5">  <p style="display: inline; margin-right:10px">Quantity:</p></label><form><input id="p5" class="txtQuant" type="text" value="1"></form>
+					  
+					  <div class="odrBtn" onclick="addItem(5)"><p>ADD</p></div>
+                  </div>
+				</div>
+
+                  <div class="shpItem">
+                      <div>
+                          <p style="font-size:30px;margin-left: 10px;display: inline">Nine Track Mind</p>
+                          <div style="display: inline-block "><p style="font-size: 20px;margin-left: 75px">Rs.1200</p></div>
+                      </div>
+					  <hr>
+                      <div class="shpItemPic" id="Picture6"><div class="shopItemA"><p>Artist: Charlie Puth<br>Album: Nine Track Mind<br>Released: 2016<br>Genres: Pop</p></div></div>
+                      <div class="shopItemQ">
+                        <label for="p6">  <p style="display: inline; margin-right:10px">Quantity:</p></label><form><input id="p6" class="txtQuant" type="text" value="1"></form>
+
+					  <div class="odrBtn" onclick="addItem(6)"><p>ADD</p></div>
+                  </div>
+				</div>
+                  <div class="shpItem">
+                      <div>
+                          <p style="font-size:30px;margin-left: 10px;display: inline"> The Dark Side Of The Moon</p>
+                          <div style="display: inline-block "><p style="font-size: 20px;margin-left: 75px">Rs.1200</p></div>
+                      </div>
+					  <hr>
+                      <div class="shpItemPic" id="Picture7"><div class="shopItemA"><p>Artist: Pink Floyd<br>Album: The Dark Side of the Moon<br>Released: 1973<br>Genres: progressive Rock</p></div></div>
+                      <div class="shopItemQ">
+                        <label for="p7">  <p style="display: inline; margin-right:10px">Quantity:</p></label><form><input id="p7" class="txtQuant" type="text" value="1"></form>
+
+					  <div class="odrBtn" onclick="addItem(7)"><p>ADD<p></div>
+                  </div>
+			 </div>
+                  <div class="shpItem">
+                      <div>
+                          <p style="font-size:30px;margin-left: 10px;display: inline">DivideStudio album by Ed Sheeran</p>
+                          <div style="display: inline-block "><p style="font-size: 20px;margin-left: 75px">Rs.1200</p></div>
+                      </div>
+					  <hr>
+                      <div class="shpItemPic" id="Picture8"><div class="shopItemA"><p>Artist: Ed Sheeran<br>Album: Camila<br>Released: 2017<br>Genres: Pop</p></div></div>
+                      <div class="shopItemQ">
+                        <label for="p8">  <p style="display: inline; margin-right:10px">Quantity:</p></label><form><input id="p8" class="txtQuant" type="text" value="1"></form>
+					 
+					  <div class="odrBtn" onclick="addItem(8)"><p>ADD</p></div>
+                  </div>
+				   </div>
+              </div>
+              </div>
+              </div>
+              </div>
+			   <!-- Right Coloumn -->
+
+  <div class="rightcolumn">
+	  <div class="card">
+      <button class="buttonFont" onclick="upFont()"> Font Increase</button>
+      <button class="buttonFont" onclick="dFont()"> Font Decrease</button>
+    </div>
+    <div class="card"><div class="contact">
+      <!-- Cart in the shop -->
+      <br>
+        <table>
+            <tr>
+                <td width="155px">Items</td>
+                <td id="Item">0</td>
+            </tr>
+            <br>
+            <tr>
+                <td><b>Total</b></td>
+                <td id="total"><b>Rs.0</b></td>
+            </tr>
+        </table>
+        <br><br>
+        <!-- Buttons for Display cart and Clear cart -->
+        <button class="buttonClear" id="plus" onclick="clearTable()"> New Cart</button>
+        <button class="buttonDisp" onClick="dTable()"> Display Cart</button>
+
+    </div></div>
+		<!-- Form for get customer informations -->
+	<div class="card">
+	<div class="contact">
+	<h2>Get in Touch</h2>
+	<form>
+	<label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="address">Address</label>
+    <input type="text" id="address" name="Address" placeholder="Your Address..">
+	
+    <label for="city">City</label>
+    <select id="city" name="city">
+	<option value="colombo">Colombo</option>
+      <option value="matara">Matara</option>
+      <option value="galle">Galle</option>
+      <option value="kandy">Kandy</option>
+    </select>
+
+    <label for="subject">Add Note</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+<button onclick="myFunction()">Submit</button>
+
+<script>
+function myFunction() {
+  alert("Your data successfully added.Your package will delivery soon!!!!");
+}
+</script>
+   
+	</div>
+	</div>
+
+  </div>
+</div>
+
+
+			  
+              </div>
+			  
+
+
+          </div>
+
+
+
+
+</body>
+<footer>
+<div class="footer">
+  <div class="sitemap">
+        <table >
+            <tr>
+      <th  style="padding: 20px;" ><a style="color: white;"href="index.html">HOME</a></th>
+      <th  style="padding: 20px;"><a style="color: white;" href="store.html">SHOP</a></th>
+      <th style="padding: 20px;"><a style="color: white; "href="gallery.html">GALLERY</a></th>
+      <th style="padding: 20px;"><a style="color: white; "href="quiz.html">QUIZ</a></th>
+       <th style="padding: 20px;"><a style="color:white;"href="about us page.html">ABOUT</a></th>
+      </tr>
+        </table>
+        <p class="footext" > <a style="color: white;" href="dinali/dinali.html">Dinali Kumarasiri</a></p>
+        <br>
+        <hr>
+
+        </div>
+      </div>
+</footer>
+</html>
